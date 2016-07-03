@@ -1,0 +1,163 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+
+<h2><img src="Assets/joinus_title.png" width="300" height="70" alt=""/></h2>
+<p>If you like to join the Sons of Bhaal then please complete the following form.  If your application is successful we will contact you in game to let you know.</p>
+ 
+<form action="#" method="post" name="bhaal_recruit" id="bhaal_recruit">
+<table width="90%" border="0">
+<tr>
+<td width="36%">Character Name:</td>
+<td width="74%"><label><input type="text" name="characterName" id="characterName"></label></td>
+</tr>
+  
+<tr>
+<td>Class:</td>
+<td><label><input type="text" name="class" id="class"></label></td>
+</tr>
+  
+<tr>
+<td>Email:</td>
+<td><label><input type="text" name="email" id="email"></label></td>
+</tr>
+  
+<tr>
+<td>Age:</td>
+<td><label><input type="text" name="age" id="age"></label></td>
+</tr>
+  
+<tr>
+<td>Location:</td>
+<td><label><input type="text" name="location" id="location"></label></td>
+</tr>
+  
+<tr>
+<td>Armoury Link:</td>
+<td><label><input type="text" name="armoury" id="armoury"></label></td>
+</tr>
+  
+<tr>
+<td><p>Prefered Raid Spec</p>
+<p>include links to talent calc where possible.</p>
+</td>
+<td><label><textarea name="raidSpec" id="raidSpec" cols="45" rows="5"></textarea></label></td>
+</tr>  
+   
+<tr>
+<td>Comments: <br />
+<br />
+tell us a bit about yourself and why you would like to join us.</td>
+<td><label><textarea name="comments" id="comments" cols="45" rows="5"></textarea></label></td>
+</tr>
+  
+<tr>
+<td>I have read and agree to the guild rules.<br />
+</td>
+<td><label><input type="checkbox" name="agree" value="agree">
+</label></td>
+</tr>
+  
+<tr>
+<td>&nbsp;</td>
+<td><label>
+<input type="submit" name="button" id="button" value="Submit">
+<input name="redirect" type="hidden" id="redirect" value="">
+<input name="recipient" type="hidden" id="recipient" value="ab15@sanger.ac.uk">
+<input name="subject" type="hidden" id="subject" value="bhaal_recruit">
+</label></td>
+</tr>
+</table>
+</form>
+<br /></td>
+
+<td width="15">&nbsp;</td>
+<td width="202" valign="top">
+
+<h2>Wotlk Progression</h2>
+<table>
+    <tr valign="top">
+        <th colspan="2">5 man</th>
+    </tr>
+    <tr>
+        <td width="140">Utgarde Keep (70)</td>
+        <td width="58">not seen</td>
+    </tr>
+    <tr>
+        <td>The Nexus (71-73)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Azjol-Nerub (72-74)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Ahn'kahet (73-75)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Drak'Tharon Keep (74-76)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>The Violet Hold (75-77)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Gundrak (76-78)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Halls of Stone (77-79)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Halls of Lightning (80)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Utgarde Pinnacle (80)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>The Oculus (80)</td>
+        <td>not seen</td>
+    </tr>
+    
+    <tr>
+        <th colspan="2">10 / 25 man</th>
+    </tr>
+    <tr>
+        <td>Naxxramas</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Malygos (The Eye of Eternity)</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Chamber of Aspects</td>
+        <td>not seen</td>
+    </tr>
+    <tr>
+        <td>Ulduar Raid</td>
+        <td>not seen</td>
+    </tr>    
+    <tr>
+        <td>Ice Crown Citidel</td>
+        <td>not seen</td>
+    </tr>
+</table>
+
+   
+
+{% endblock %}
+
+{% block side %}
+<img src="static/Assets/banrRgt.png" class="img-rounded"/>
+{% endblock %}
+
+{% block footer %}
+<h6>Sons of Bhaal Guild Aggramar EU 2009</h6>
+{% endblock %} 

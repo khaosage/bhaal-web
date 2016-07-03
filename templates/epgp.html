@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{# Main #}
+
+{% block content %}
+
+<header><h1>EP/GP</h1></header>
+
+<article>
+	<p><a href="http://www.epgpweb.com/guild/eu/Aggramar/Sons%20Of%20Bhaal/" ><strong>See the current epgp Standings here.</strong></a></p>
+	<p>EPGP is a point system we use in conjunction  with a loot council to determine who gets what loot in our Guild Raids. To Qualify to win loot in our raids you will need the current guild version of - epgp lootmaster available from <a href="http://wow.curse.com/downloads/wow-addons/details/epgp_lootmaster.aspx"><strong>curse</strong></a>. You don't need to do anything to the addon for it to work just install it and enabled for you charcter.</p>
+	<p>This system looks really complicated at first glance but trust me its easy once you grasp it.</p>
+
+	<header><h2>What is EP?</h2></header>
+	<p><strong>EP</strong> - Stands for <strong>Event Points</strong> or <strong>Effort Points</strong> You are awarded these for the following reasons:</p>
+
+	<header><h3>Points for Raiding</h3></header>
+	<p><strong>30 pts</strong> - Awarded for Signing up for a raid an being online and reasy 10 mins before start.<br />
+	<strong>25 pts every 15 mins</strong> - Whilst in the Raid<br />
+	<strong>10 pts</strong> - Per attempt at a boss but not downed Up to maximum of 30 pts<br />
+	<strong>20 pts</strong> - for a boss kill<br />
+	<strong>30 pts</strong> - for One Shoting a Boss</p>
+
+	<header><h3>Standby</h3></header>
+	<p>If you sign up for a raid and there is no space in the raid then you may be asked to go on standby, this will award points at a reduced rate even though you are not actually in the raid.</p>
+	<p><strong>30 pts + 25 pts per hour</strong> (to qualify you must be online or available to contact by  the raid leader)</p>
+
+	<header><h3>Penalties</h3></header>
+	<p><strong>-100 pts</strong> - signing up for a raid and not showing</p>
+
+	<header><h2>What is GP?</h2></header>
+	<p><strong>GP</strong> - Stands for Gear Points (Loot Values). Gear Points are awarded for each item you receive based on its quality and level. Each item already has a set GP in the game.</p>
+
+	<header><h2>What is PR?</h2></header>
+	<p><strong>PR</strong> - Stands for Priorty Rating and is calculated with the formula: <strong>PR  = EP / GP</strong> so in this way effort is balanced against the amount of loot you have won giving you a loot Priority for the next item you roll need on.</p><br />
+
+	<header><h3>Decay</h3></header>
+	<p><strong>Decay</strong> - The points are subjected to a 7% decay rate once per week so you will slowly loose points this gives new members a chance to catch exsisting members and prevents the old problem of DKP hording.  Becasue both values are decayed your <strong>PR</strong>will not really change.</p>
+
+	<header><h2>Should i Need or Greed?</h2></header>
+
+	<header><h3>Need</h3></header>
+	<p>Simpley put if the item is an upgrade for your current spec then it is a <strong>Needed Item</strong> and you click <strong>Need</strong>, if you want an item you should always click Need if your PR isnt good enough to beat another raid member you haven't lost anything if you don't click need then the item could get DE'd or go to a Greed roll and you'll missed out.  We would rather items go to people for there main spec no matter how much you have already won.</p>
+
+	<header><h3>Greed</h3></header>
+	<p>You should greed on an item if you would like an item for an off spec (ie. you are a healer and would like an item for DPS or Tank kit) off spec items are awarded <strong>FREE (no GP is added)</strong>, if you greed on an item that would be useful for your main spec you will likely loose out on the item and if by some chance you do win it we will charge you for it anyway so you might as well have Needed.</p>
+
+	<header><h3>Pass</h3></header>
+	<p>Obvious really if you don't want an item or its not an upgrade, if the item is un-usable by your class then the system will auto pass for you.</p>
+
+</article>
+
+{% endblock %}
+
+{# Side #}
+
+{% block side %}
+	<img src="static/Assets/banrRgt.png" class="img-rounded" />
+{% endblock %}
+
+{# Footer #}
+
+{% block footer %}
+	<h6>Sons of Bhaal Guild Aggramar EU 2009</h6>
+{% endblock %} 

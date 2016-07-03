@@ -1,0 +1,22 @@
+/* wow Classes */
+
+.druid { font-weight:bold; color: #ff9900 !important }
+.deathknight { font-weight:bold; color: #cc0000 !important}
+.paladin { font-weight:bold; color: #ff99ff !important}
+.warrior { font-weight:bold; color: #996600 !important}
+.rogue { font-weight:bold; color: #ffff33 !important}
+.priest { font-weight:bold; color: #FFF !important}
+.warlock { font-weight:bold; color: #660099 !important}
+.hunter { font-weight:bold; color: #33cc00 !important}
+.shaman { font-weight:bold; color: #3366ff !important}
+.mage { font-weight:bold; color: #66ccff !important}
+
+/* wowhead */
+
+.whdescript  { font-weight:bold; color: #ffd100 !important }     /* yellow/description */
+.whgrey, .whgrey a { font-weight:bold; color: #9d9d9d !important } /* grey/poor */
+.whwhite, .whwhite a { font-weight:bold; color: #ffffff !important } /* white/common */
+.whgreen, .whgreen a { font-weight:bold; color: #1eff00 !important } /* green/uncommon*/
+.whblue, .whblue a { font-weight:bold; color: #0070dd !important } /* blue/rare */
+.whepic, .whepic a { font-weight:bold; color: #a335ee !important} /* purple/epic */
+.whorange, .whorange a { font-weight:bold; color: #ff8000 !important } /* orange/legendary */

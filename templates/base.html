@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Bhaal Space</title>
+        <link href="static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="static/css/wow.css" rel="stylesheet" type="text/css">
+        <script src="http://static.wowhead.com/widgets/power.js"></script>
+    </head>
+    
+    <body>
+
+        <div class="container">
+        <header><img src="static/Assets/new_title.png" /></header>
+            <nav class="navbar navbar-default">
+                <ul class="nav navbar-nav">
+                    <li><a class="navbar-brand" href="/">Sons Of Bhaal</a></li>
+                    <li><a href="raid_info" >Raid Info</a></li>
+                    <li><a href="raid_progress" >Raid Progress</a></li>
+                    <li><a href="raid_format">Raid Format</a></li>
+                    <li><a href="epgp" >EPGP</a></li>
+                    <li><a href="recruitment">Recruitment</a></li>
+                    <li><a href="about_us" >About Us</a></li>
+                </ul>
+            </nav>
+            
+            <div class="row">
+                <div class="col-md-8">
+                    <section>
+                        {% block content %}{% endblock %}
+                    </section>
+                </div>
+            
+                <div class="col-md-4">
+                    <aside>
+                        {% block side %}{% endblock %}
+                    </aside>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <footer>
+                        {% block footer %}{% endblock %}
+                    </footer>
+                </div>
+                <div class="col-md-4">
+                </div>  
+            </div>
+
+        </div>
+    </body>
+</html>
